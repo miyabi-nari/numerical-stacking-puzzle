@@ -1,82 +1,18 @@
 ################################
-# Visual Studio
-################################
-.vs/
-*.user
-*.suo
-*.vcxproj.user
-*.aps
-*.ncb
-*.opendb
-*.sdf
-*.VC.db
-
-################################
-# Build outputs
-################################
-Debug/
-Release/
-x64/
-x86/
-build/
-out/
-bin/
-obj/
-
-# Visual Studio intermediate files
-ipch/
-*.pdb
-*.idb
-*.ilk
-*.log
-
-################################
-# Executables
-################################
-*.exe
-*.out
-*.app
-
-################################
 # OS files
 ################################
 .DS_Store
 Thumbs.db
 
 ################################
-# Logs / temp
+# general
 ################################
 *.log
 *.tmp
 *.temp
 
 ################################
-# Python
-################################
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environments
-venv/
-.env/
-.env.*
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-
-################################
-# Project-specific
-################################
-save-*.txt
-debug.txt
-
-################################
-# IDE (optional)
+# editor
 ################################
 .vscode/
 .idea/
-``

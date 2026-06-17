@@ -164,6 +164,7 @@ python/
 
 - プロジェクト全体README → `../README.md`
 - C++版 → `../cpp/`
+- Unity版 → `../unity(csharp)/`
 
 ---
 

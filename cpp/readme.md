@@ -75,7 +75,7 @@ Git管理対象には含まれていません。
 
 - プロジェクト全体README → `../README.md`
 - Python版 → `../python/`
-
+- Unity版 → `../unity(csharp)/`
 ---
 
 ## 注意事項

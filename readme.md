@@ -1,7 +1,7 @@
 # Numerical Stacking Puzzle
 
 A simple puzzle game where numbered blocks are stacked and merged.  
-This repository contains multiple implementations (C++ and Python) of the same game.
+This repository contains multiple implementations (C++ , Python and unity(C#) ) of the same game.
 
 ---
 
@@ -17,6 +17,7 @@ This repository contains multiple implementations (C++ and Python) of the same g
 
 - C++版 → `cpp/`
 - Python版 → `python/`
+- Unity版 → `unity(csharp)/`
 
 それぞれの実装を比較することで、言語ごとの特性の違いを観察することができます。
 
@@ -61,11 +62,26 @@ numerical-stacking-puzzle/
 │        ├── *.ico         ← アイコン
 │        ├── *.vcxproj     ← プロジェクト設定
 │        └── *.filters     ← 表示設定
-└── python/
+├── python/
+│   ├── README.md
+│   └── numerical-stacking-puzzle/
+│        ├── *.py          ← メインのソースコード
+│        └── *.wav         ← サウンドファイル
+└── unity(csharp)/
     ├── README.md
-    └── numerical-stacking-puzzle/
-         ├── *.py          ← メインのソースコード
-         └── *.wav         ← サウンドファイル
+    ├── numerical-stacking-puzzle
+    ├── Assets/
+    │   ├── Scripts/        ← C#ソースコード
+    │   ├── Scenes/         ← メインシーン
+    │   ├── Prefabs/        ← タイル・UIなど
+    │   ├── Audio/
+    │   ├── Input/
+    │   ├── Materials/
+    │   ├── Resources/
+    │   ├── TextMesh Pro/
+    │   └── _Recovery/
+    ├── ProjectSettings/
+    ├── Packages/
 ```
 
 ---
@@ -79,6 +95,9 @@ numerical-stacking-puzzle/
 
 ### Python版
 - 言語：Python 3.13
+
+### Unity版
+- 言語：C#
 
 ---
 
@@ -102,7 +121,7 @@ cpp/numerical-stacking-puzzle.sln
 
 ## 特記事項
 
-- 同じゲームを C++ と Python で実装
+- 同じゲームを C++ と Python と Unity（C#） で実装
 - 言語ごとの実装差を比較可能
 - シンプルなロジックで学習用途にも適用可能
 

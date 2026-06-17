@@ -1,0 +1,23 @@
+################################
+# Python
+################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+################################
+# Project-specific
+################################
+save-*.txt
+debug.txt
