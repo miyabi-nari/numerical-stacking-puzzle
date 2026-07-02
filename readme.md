@@ -1,7 +1,7 @@
 # Numerical Stacking Puzzle
 
 A simple puzzle game where numbered blocks are stacked and merged.  
-This repository contains multiple implementations (C++ , Python and unity(C#) ) of the same game.
+This repository contains multiple implementations (C++ , Python , unity(C#) and roblox(luau) ) of the same game.
 
 ---
 
@@ -18,6 +18,7 @@ This repository contains multiple implementations (C++ , Python and unity(C#) ) 
 - C++版 → `cpp/`
 - Python版 → `python/`
 - Unity版 → `unity(csharp)/`
+- Roblox版 → `roblox(luau)/`
 
 それぞれの実装を比較することで、言語ごとの特性の違いを観察することができます。
 
@@ -34,6 +35,7 @@ This repository contains multiple implementations (C++ , Python and unity(C#) ) 
 キーボードの  
 `Z` `X` `C` `V` `B` `N` `M` `<` `>` `?` `_`  
 を押すと、落下中の数値ブロックを移動できます。
+（Roblox版は `A` `S` `D` 、、、）
 
 ゲームオーバー条件はありません。
 
@@ -67,21 +69,30 @@ numerical-stacking-puzzle/
 │   └── numerical-stacking-puzzle/
 │        ├── *.py          ← メインのソースコード
 │        └── *.wav         ← サウンドファイル
-└── unity(csharp)/
-    ├── README.md
-    ├── numerical-stacking-puzzle
-    ├── Assets/
-    │   ├── Scripts/        ← C#ソースコード
-    │   ├── Scenes/         ← メインシーン
-    │   ├── Prefabs/        ← タイル・UIなど
-    │   ├── Audio/
-    │   ├── Input/
-    │   ├── Materials/
-    │   ├── Resources/
-    │   ├── TextMesh Pro/
-    │   └── _Recovery/
-    ├── ProjectSettings/
-    ├── Packages/
+├── unity(csharp)/
+│   ├── README.md
+│   ├── numerical-stacking-puzzle
+│   ├── Assets/
+│   │   ├── Scripts/        ← C#ソースコード
+│   │   ├── Scenes/         ← メインシーン
+│   │   ├── Prefabs/        ← タイル・UIなど
+│   │   ├── Audio/
+│   │   ├── Input/
+│   │   ├── Materials/
+│   │   ├── Resources/
+│   │   ├── TextMesh Pro/
+│   │   └── _Recovery/
+│   ├── ProjectSettings/
+│   └── Packages/
+roblox(luau)/
+├── README.md
+├── default.project.json  ← rojo用jsonファイル
+├── rojo.exe.txt          ← ここにrojo.exeを配置します。
+└── numerical-stacking-puzzle
+    ├── src/              ← luauソースコード(アプリケーションスクリプト)
+    ├── client/           ← luauソースコード(クライアントスクリプト)
+    ├── server/           ← luauソースコード(サーバースクリプト)
+    └── audio/            ← 効果音用サンプルwavファイル
 ```
 
 ---
@@ -98,6 +109,10 @@ numerical-stacking-puzzle/
 
 ### Unity版
 - 言語：C#
+
+### Roblox版
+- 開発環境：Roblox Studio バージョン 0.728.0.7280895 (64bit)
+- 言語：luau
 
 ---
 
