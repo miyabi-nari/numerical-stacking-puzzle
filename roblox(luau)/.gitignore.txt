@@ -1,0 +1,42 @@
+################################
+# Roblox Studio Files
+################################
+# Studio lock files
+*.rbxl.lock
+*.rbxlx.lock
+
+# Autosave / backup files
+*.autosave
+*.backup
+
+################################
+# Rojo Build Output
+################################
+out/
+build/
+
+################################
+# Node.js (if used with Rojo CLI)
+################################
+node_modules/
+package-lock.json
+yarn.lock
+
+################################
+# Build Artifacts
+################################
+dist/
+bin/
+
+################################
+# Shell / Terminal History
+################################
+.history
+
+################################
+# Important Files (DO NOT IGNORE)
+################################
+!default.project.json
+!*.lua
+!*.luau
+!readme.md
